@@ -127,6 +127,7 @@ if(WIN32)
         /wd4267             # Ignore "type conversion, possible loss of data"
         /wd4310
         /wd4324
+		/wd4455             # Ignore "literal suffix identifiers that do not start with an underscore are reserved"
         /wd4505             # Ignore "unused local function"
         /wd4592
         /wd4611
